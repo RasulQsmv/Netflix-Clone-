@@ -1,0 +1,57 @@
+.sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .sub-links a {
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+  }
+  .sub-links ul li{
+    width: 100px;
+  }
+  
+  .sub-links a:hover {
+    color: var(--dark);
+    text-decoration: underline;
+  }
+  .sub-links{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  hr{
+    color: white;
+  }
+  footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+   
+    margin: 10px;
+  }
+  .footer p{
+    color: white;
+  }
+  .sosial-logo i{
+    width: 300px;
+    height: 90px;
+    margin-left: 10px;
+
+  }
+  .sosial-logo{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  @media (max-width: 900px) {
+
+    .sub-links ul li{
+      width: 100px;
+      font-size: 10px;
+    }
+  }
